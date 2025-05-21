@@ -1,6 +1,6 @@
 # BioFaker
 
-Este proyecto utiliza inteligencia artificial para generar especies ficticias con secuencias genéticas sintéticas y clasificar su nivel de riesgo para humanos.
+Este proyecto utiliza inteligencia artificial para generar especies ficticias del espacio con secuencias genéticas sintéticas y clasificar su nivel de riesgo para humanos.
 
 ## Características
 
