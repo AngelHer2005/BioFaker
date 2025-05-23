@@ -22,6 +22,11 @@ pip install -r requirements.txt
 streamlit run biofaker_app.py
 ```
 
+## 🌐 Demo online
+
+Puedes probar la app aquí:  
+👉 **[https://biofaker-domainplace.streamlit.app/](https://biofaker-domainplace.streamlit.app/)**
+
 ## 📚 Ejemplo de salida
 
 ```
