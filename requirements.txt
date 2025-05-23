@@ -1,5 +1,0 @@
-flask
-faker
-tensorflow
-scikit-learn
-gunicorn
