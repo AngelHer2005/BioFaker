@@ -1,5 +1,9 @@
 # 🧬 BioFakerIA
 
+<p align="center">
+  <img src="https://regenerahealth.com/wp-content/uploads/2016/06/genoma-humanos-1.png" alt="Genoma" width="350"/>
+</p>
+
 ¡Genera especies ficticias con IA!  
 Este proyecto crea secuencias genéticas sintéticas, clasifica su riesgo y genera descripciones de especies inventadas.
 
