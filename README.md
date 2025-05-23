@@ -1,51 +1,37 @@
-# BioFaker
+# 🧬 BioFakerIA
 
-Este proyecto utiliza inteligencia artificial para generar especies ficticias del espacio con secuencias genéticas sintéticas y clasificar su nivel de riesgo para humanos.
+¡Genera especies ficticias con IA!  
+Este proyecto crea secuencias genéticas sintéticas, clasifica su riesgo y genera descripciones de especies inventadas.
 
-## Características
+## 🚀 Características
 
-- **Generación de datos sintéticos:** Crea secuencias genéticas aleatorias simulando bases y elementos ficticios.
-- **Clasificación de riesgo:** Entrena un modelo RandomForest para predecir el nivel de riesgo de cada secuencia.
-- **Modelo generativo LSTM:** Utiliza una red neuronal LSTM para generar nuevas secuencias genéticas.
-- **BioFakerIA:** Clase que produce especies ficticias con nombre, hábitat, descripción, genoma y nivel de riesgo.
+- 🔬 Generación de genomas sintéticos
+- 🌱 Creación de especies ficticias con nombre, hábitat y descripción
+- ⚠️ Clasificación de nivel de riesgo (Bajo, Medio, Alto)
+- 🖥️ Interfaz web con Streamlit
 
-## Requisitos
-
-- Python 3.7+
-- numpy
-- scikit-learn
-- tensorflow
-- faker
-
-Instala las dependencias con:
+## 📦 Instalación
 
 ```bash
-pip install numpy scikit-learn tensorflow faker
+pip install -r requirements.txt
 ```
 
-## Uso
+## 🏃‍♂️ Uso rápido
 
-Puedes ejecutar el código principal desde el archivo `codigo_ia.py` o explorar el flujo completo y explicaciones en el notebook `codigo_ia.ipynb`.
-
-### Ejemplo rápido
-
-```python
-from codigo_ia import BioFakerIA
-
-biofaker = BioFakerIA()
-print(biofaker.generate())
+```bash
+streamlit run biofaker_app.py
 ```
 
-### Notebook
+## 📚 Ejemplo de salida
 
-Abre `codigo_ia.ipynb` en VSCode o Jupyter para ver el paso a paso y explicación detallada.
+```
+🦠 Especie: García Lumina
+🏞️ Hábitat: Madrid
+📝 Descripción: Especie endémica con adaptaciones únicas.
+🧬 Genoma sintético: Adenina, Citosina, Guanina, ...
+⚠️ Nivel de riesgo para humanos: 🟡 Medio
+```
 
-## Estructura del Proyecto
+## 🤖 Créditos
 
-- `codigo_ia.py`: Código fuente principal.
-- `codigo_ia.ipynb`: Notebook explicativo.
-- `README.md`: Este archivo.
-
-## Créditos
-
-Desarrollado con fines educativos y demostrativos de IA generativa y clasificación.
+Creado con ❤️ y Python.
