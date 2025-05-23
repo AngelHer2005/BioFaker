@@ -17,7 +17,8 @@ def generar_secuencia_genetica(longitud=8):
     return [random.randint(1, 20) for _ in range(longitud)]
 
 def riesgo_aleatorio():
-    return random.choices([0,1,2], weights=[0.6,0.3,0.1])[0]
+    # Ahora las clases están balanceadas
+    return random.choice([0, 1, 2])
 
 X = np.array([generar_secuencia_genetica() for _ in range(800)])
 y = np.array([riesgo_aleatorio() for _ in range(800)])
@@ -99,7 +100,16 @@ class BioFakerIA:
         secuencia = generar_secuencia(model, seed)
         texto_gen = secuencia_a_texto(secuencia)
 
-        riesgo = clf.predict([secuencia])[0]
+        # --- Arreglo: Prepara la secuencia para el clasificador ---
+        # Quita ceros (padding) y ajusta longitud a 8
+        secuencia_sin_ceros = [b for b in secuencia if b != 0]
+        if len(secuencia_sin_ceros) < 8:
+            # Rellena con bases aleatorias válidas
+            secuencia_sin_ceros += [random.randint(1, 20) for _ in range(8 - len(secuencia_sin_ceros))]
+        elif len(secuencia_sin_ceros) > 8:
+            secuencia_sin_ceros = secuencia_sin_ceros[:8]
+        # Predice el riesgo usando la secuencia ajustada
+        riesgo = clf.predict([secuencia_sin_ceros])[0]
         niveles = {0:"Bajo",1:"Medio",2:"Alto"}
         emojis = {0:"🟢", 1:"🟡", 2:"🔴"}
 
