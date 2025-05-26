@@ -13,8 +13,12 @@ from sklearn.model_selection import train_test_split
 
 fake = Faker()
 
-def generar_secuencia_genetica(longitud=8):
-    return [random.randint(1, 20) for _ in range(longitud)]
+def generar_secuencia_genetica(longitud=8, unica=False):
+    if unica:
+        # Genera una secuencia de bases únicas (sin repeticiones)
+        return random.sample(range(1, 21), min(longitud, 20))
+    else:
+        return [random.randint(1, 20) for _ in range(longitud)]
 
 def riesgo_aleatorio():
     # Ahora las clases están balanceadas
@@ -62,9 +66,18 @@ def generar_secuencia(model, seed_seq, longitud=max_len):
     for _ in range(longitud - len(seed_seq)):
         padded = pad_sequences([result], maxlen=max_len, padding='pre')
         pred = model.predict(padded, verbose=0)[0]
-        next_base = np.random.choice(range(vocab_size), p=pred)
-        if next_base == 0:
+        # Evita repetir bases ya presentes
+        used_bases = set(result)
+        # No se puede usar la base 0 (padding)
+        available_bases = [i for i in range(1, vocab_size) if i not in used_bases]
+        if not available_bases:
             break
+        # Crea una nueva distribución de probabilidad solo con las bases disponibles
+        filtered_probs = np.array([pred[i] if i in available_bases else 0 for i in range(vocab_size)])
+        if filtered_probs.sum() == 0:
+            break
+        filtered_probs = filtered_probs / filtered_probs.sum()
+        next_base = np.random.choice(range(vocab_size), p=filtered_probs)
         result.append(next_base)
     return result
 
@@ -96,7 +109,8 @@ class BioFakerIA:
         habitat = self.habitat()
         descripcion = self.description()
 
-        seed = generar_secuencia_genetica(3)
+        # Usa semilla sin repeticiones
+        seed = generar_secuencia_genetica(3, unica=True)
         secuencia = generar_secuencia(model, seed)
         texto_gen = secuencia_a_texto(secuencia)
 
