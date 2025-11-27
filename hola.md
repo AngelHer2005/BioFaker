@@ -11,7 +11,7 @@
 
 
 
-<img src="[https://www.google.com/search?q=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png](https://i.postimg.cc/XNdZw1z9/image-removebg-preview-(2).png)" width="100px" alt="Pokeball">
+<img src="https://i.postimg.cc/XNdZw1z9/image-removebg-preview-(2).png" width="100px" alt="Pokeball">
 <h3>🔴 ¡Haz clic en la Pokébola para elegirme! ⚪</h3>
 
 
