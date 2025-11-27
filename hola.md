@@ -4,130 +4,78 @@
 
 <details>
 <summary>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="120px" alt="Pokeball" style="cursor: pointer;">
-  <h3>👆 ¡Haz clic en la Pokébola para empezar! 👆</h3>
-</div>
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="150px" alt="Click Me" style="cursor: pointer;" title="¡Haz clic en la Pokébola!">
+  <h3>👆 ¡Tócame para abrir el menú! 👆</h3>
 </summary>
 
 <br>
 <img src="https://raw.githubusercontent.com/AngelHer2005/AngelHer2005/main/recursos/banner.gif" alt="Banner">
 
-<h1>🔰 Elige tu Pokémon de Inicio 🔰</h1>
+<h2>🔰 Selecciona tu compañero 🔰</h2>
 
-<details>
-<summary>
-  <div align="center">
-    <br>
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" width="180px" alt="Bulbasaur">
-    <h3>🍃 Elegir a Bulbasaur (Sobre Mí) 🍃</h3>
-  </div>
-</summary>
-
-<div align="center">
-  <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="40px"> About Me <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="40px">
-
-  <table align="center" border="0">
+<table border="0" align="center">
   <tr>
-  <td align="left"><b>👤 Name:</b></td>
-  <td>Ángel Hernán Alberto Patricio Arroyo</td>
+    <td align="center" width="50%">
+      <details>
+        <summary>
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" width="120px" alt="Charmander">
+          <br><b>🔥 Skills</b>
+        </summary>
+        <br>
+        🖥️ <b>Languages:</b><br>
+        <img src="https://skillicons.dev/icons?i=python,js,java,php&theme=dark" width="100%">
+        <br><br>
+        ⚙️ <b>Frameworks:</b><br>
+        <img src="https://skillicons.dev/icons?i=react,nestjs,nodejs,express&theme=dark" width="100%">
+      </details>
+    </td>
+
+    <td align="center" width="50%">
+      <details>
+        <summary>
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" width="120px" alt="Squirtle">
+          <br><b>💧 Info Extra</b>
+        </summary>
+        <br>
+        <img src="https://raw.githubusercontent.com/AngelHer2005/AngelHer2005/main/recursos/parrot.gif" width="50px"/>
+        <br>
+        <b>Visitors:</b><br>
+        <img src="https://komarev.com/ghpvc/?username=AngelHer2005&style=flat-square&color=blue" alt="Count" />
+      </details>
+    </td>
   </tr>
+
   <tr>
-  <td align="left"><b>🎓 Career:</b></td>
-  <td>Software Engineering with Artificial Intelligence</td>
+    <td align="center" width="50%">
+      <details>
+        <summary>
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" width="120px" alt="Bulbasaur">
+          <br><b>🍃 About Me</b>
+        </summary>
+        <br>
+        <b>🎓 Career:</b> Soft. Eng.<br>
+        <b>🇵🇪 Country:</b> Peru<br>
+        <a href="https://www.linkedin.com/in/angelhernanpatricioarroyo/">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20px"/>
+        </a>
+      </details>
+    </td>
+
+    <td align="center" width="50%">
+      <details>
+        <summary>
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" width="120px" alt="Pikachu">
+          <br><b>⚡ Proyectos</b>
+        </summary>
+        <br>
+        🚧 <b>En construcción</b> 🚧<br>
+        Aquí puedes poner tus repositorios.<br>
+        <br>
+        <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark">
+      </details>
+    </td>
   </tr>
-  <tr>
-  <td align="left"><b>🎂 Age:</b></td>
-  <td>19 years old</td>
-  </tr>
-  <tr>
-  <td align="left"><b>🗣️ Languages:</b></td>
-  <td>English 75%</td>
-  </tr>
-  <tr>
-  <td align="left"><b>🇵🇪 Country:</b></td>
-  <td>Peru <img src="https://raw.githubusercontent.com/AngelHer2005/AngelHer2005/main/recursos/Per%C3%BA.png" width="20px"></td>
-  </tr>
-  <tr>
-  <td align="left"><b>🏫 Education:</b></td>
-  <td>Institute SENATI - 6° Cycle</td>
-  </tr>
-  </table>
-
-  📫 Contact Me:
-  <br>
-  <a href="mailto:angelhernanpatricioarroyo@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-
-  <p>🌐 Social Networks:</p>
-  <a href="https://wa.me/997150226" target="blank"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
-  <a href="https://discordapp.com/users/1207851438630379531" target="blank"><img align="center" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
-  <a href="https://www.facebook.com/angelhernan.patricioarroyo/" target="blank"><img align="center" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
-  <a href="https://www.linkedin.com/in/angelhernanpatricioarroyo/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</div>
-</details>
-
-<details>
-<summary>
-  <div align="center">
-    <br>
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" width="180px" alt="Charmander">
-    <h3>🔥 Elegir a Charmander (Habilidades) 🔥</h3>
-  </div>
-</summary>
-
-<div align="center">
-  <br>
-  🖥️ Programming Languages
-  <br>
-  <img src="https://skillicons.dev/icons?i=python,js,java,php&theme=dark" alt="Languages">
-
-  <br><br>
-  ⚙️ Frameworks & Libraries
-  <br>
-  <img src="https://skillicons.dev/icons?i=react,nestjs,nodejs,express,django,tailwind&theme=dark" alt="Frameworks">
-
-  <br><br>
-  🗄️ Databases
-  <br>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,mongodb&theme=dark" alt="Databases">
-
-  <br><br>
-  ☁️ Cloud & DevOps
-  <br>
-  <img src="https://skillicons.dev/icons?i=aws,azure&theme=dark" alt="Cloud">
-
-  <br><br>
-  🛠️ Tools
-  <br>
-  <img src="https://skillicons.dev/icons?i=vscode,git,github,linux&theme=dark" alt="Tools">
-  <img src="https://raw.githubusercontent.com/AngelHer2005/AngelHer2005/main/recursos/markdown.jpg" width="48px" style="vertical-align: middle;" alt="Markdown">
-</div>
-</details>
-
-<details>
-<summary>
-  <div align="center">
-    <br>
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" width="180px" alt="Squirtle">
-    <h3>💧 Elegir a Squirtle (Info Extra) 💧</h3>
-  </div>
-</summary>
-
-<div align="center">
-  <br>
-  I'm new to this field, but rest assured that this profile will be updated.
-  <br>
-  <img src="https://raw.githubusercontent.com/AngelHer2005/AngelHer2005/main/recursos/parrot.gif" alt="Dancing Parrot" width="100px"/>
-
-  <h4>Visitor's count:</h4>
-  <img src="https://komarev.com/ghpvc/?username=AngelHer2005&style=flat-square&color=blue" alt="Angel Visitor's Count" />
-
-  <br><br>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=25&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Good+Bye+Friend!+%F0%9F%91%8B;See+you+later!+%F0%9F%9A%80;Contact+me+anytime!+%F0%9F%93%A8" alt="GoodBye"/>
-</div>
-</details>
+</table>
 
 </details>
 </div>
